@@ -1,0 +1,135 @@
+body{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+#container{
+    display:flex;
+    flex-flow: row nowrap;
+}
+#calculator{
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 0;
+}
+#register{
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 0;
+    text-align: right;
+    border: solid;
+    border-width: 1px;
+    height: 300px;
+}
+#receipt{
+    display: flex;
+    flex-flow: row nowrap;
+    flex:1 0 80%;
+    text-align: right;
+    border: solid;
+    border-width: 1px;
+    overflow: scroll;
+}
+#itemText{
+    flex:1 0 80%;
+    text-align: left;
+}
+#itemPrice{
+    flex:1 0;
+}
+#rTotal{
+    display:flex;
+    flex-flow: row nowrap;
+    flex:1 0;
+    font-size: 30px;
+}
+#cReceipt{
+    flex:1 0;
+}
+#undo{
+    flex:1 0;
+}
+#totalText{
+    flex:1 1 57%;
+    text-align: left;
+}
+#totalPrice::before{
+    content: '$';
+}
+#pay{
+    flex:1 0;
+}
+.output{
+    text-align: right;
+    border: solid;
+    border-width: 1px;
+    height: 50px;
+    font-size: 50px;
+    background-image: linear-gradient(white, grey);
+}
+.btnRow{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 50px;
+    font-size: 15px;
+    background-image: linear-gradient(white, grey);
+}
+.btn{
+    flex:1 0;
+    background-color: grey;
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: dimgray;
+}
+.opt{
+    flex:1 0;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+}
+.opt:hover{
+    background-color:  dimgray;
+}
+#equal{
+    flex-basis:40%
+}
+#premade{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.itemRow{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 60px;
+    font-size: 20px;
+    background-image: linear-gradient(white, green);
+}
+.itemBtn{
+    flex:1 0;
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+}
+.foodRow{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 60px;
+    font-size: 20px;
+    background-image: linear-gradient(white, yellow);
+}
+.modRow{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 60px;
+    font-size: 20px;
+    background-image: linear-gradient(white, red);
+}

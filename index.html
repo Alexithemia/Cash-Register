@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+    <div id="container">
+    <div id="calculator">
+        <div class = 'output'>0</div>
+        <div class = 'btnRow'>
+            <div class="btn" id = 'btn7'><p>7</p></div>
+            <div class="btn" id = 'btn8'><p>8</p></div>
+            <div class="btn" id = 'btn9'><p>9</p></div>
+            <div class="btn" id = 'divide'><p>÷</p></div>
+            <div class="opt" id = 'clear'><p>Clear<br>(c)</p></div>
+        </div>
+        <div class = 'btnRow'>
+            <div class="btn" id = 'btn4'><p>4</p></div>
+            <div class="btn" id = 'btn5'><p>5</p></div>
+            <div class="btn" id = 'btn6'><p>6</p></div>
+            <div class="btn" id = 'multiply'><p>x</p></div>
+            <div class="opt" id = 'balance'><p>Balance<br>(b)</p></div>
+        </div>
+        <div class = 'btnRow'>
+            <div class="btn" id = 'btn1'><p>1</p></div>
+            <div class="btn" id = 'btn2'><p>2</p></div>
+            <div class="btn" id = 'btn3'><p>3</p></div>
+            <div class="btn" id = 'minus'><p>-</p></div>
+            <div class="opt" id = 'deposit'><p>Deposit<br>(d)</p></div>
+        </div>
+        <div class = 'btnRow'>
+            <div class="btn" id = 'btn0'><p>0</p></div>
+            <div class="btn" id = 'btn00'><p>00</p></div>
+            <div class="btn" id = 'btnDot'><p>.</p></div>
+            <div class="btn" id = 'plus'><p>+</p></div>
+            <div class="opt" id = 'withdraw'><p>Withdraw<br>(w)</p></div>
+        </div>
+        <div class = 'btnRow'>
+            <div class="opt" id = 'equal'><p>=</p></div>
+            <div class="opt" id = 'back'><p>←(u)</p></div>
+            <div class="opt" id = 'pay'><p>Pay<br>(p)</p></div>
+        </div>
+    </div>
+    <div id='register'>
+        <div id='receipt'>
+            <div id='itemText'></div>
+            <div id='itemPrice'></div>
+        </div>
+        <div id='rTotal'>
+            <button id='cReceipt'>Clear</button>
+            <button id='undo'>Undo</button>
+            <div id=totalText>Total</div>
+            <div id='totalPrice'>0.00</div>
+        </div>
+    </div>
+    </div>
+    <div id='premade'>
+        <div class='itemRow'>
+            <div class='itemBtn'>Coffee<br>$1.00</div>
+            <div class='itemBtn'>Latte<br>$2.50</div>
+            <div class='itemBtn'>Cappucino<br>$3.00</div>
+            <div class='itemBtn'>Mocha<br>$3.00</div>
+            <div class='itemBtn'>Espresso<br>$1.50</div>
+            <div class='itemBtn'>Macchiato<br>$2.00</div>
+            <div class='itemBtn'>Americano<br>$2.00</div>
+            <div class='itemBtn'>Cordusio<br>$2.25</div>
+        </div>
+        <div class='modRow'>
+            <div class='itemBtn'>Iced</div>
+            <div class='itemBtn'>No Whip</div>
+            <div class='itemBtn'>Cream</div>
+            <div class='itemBtn'>Sugar</div>
+            <div class='itemBtn'>Nonfat</div>
+            <div class='itemBtn'>Soy</div>
+            <div class='itemBtn'>Almond</div>
+            <div class='itemBtn'>Coconut</div>
+        </div>
+        <div class='foodRow'>
+            <div class='itemBtn'>Doughnut<br>$1.00</div>
+            <div class='itemBtn'>Scone<br>$1.25</div>
+            <div class='itemBtn'>Bagel<br>$.75</div>
+            <div class='itemBtn'>Muffin<br>$1.00</div>
+            <div class='itemBtn'>Bread<br>$.75</div>
+            <div class='itemBtn'>Danish<br>$1.75</div>
+            <div class='itemBtn'>Cookie<br>$.50</div>
+            <div class='itemBtn'>Cin. Roll<br>$1.25</div>
+        </div>
+        
+    </div>
+    <script src="/js/cash_register.js"></script>
+</body>
+</html>
